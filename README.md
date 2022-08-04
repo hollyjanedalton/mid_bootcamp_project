@@ -41,5 +41,7 @@ Balance: Average balance for each quarter in the last year
 11. Live Presentation in class to instructor, TA, and 10 colleagues
 
 [Link to Tableau](https://public.tableau.com/shared/PGJZYQ4D3?:display_count=n&:origin=viz_share_link)
+
+
 [Link to final presentation](https://slides.com/hollydalton/minimal)
 
