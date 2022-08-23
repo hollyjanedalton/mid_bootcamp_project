@@ -3,27 +3,27 @@
 
 ### Background 
 
-I work for Hawkins Bank in Hawkins, Indiana as a risk analyst. Apart from the other banking and loan services, the bank also provides credit card services which is a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card. Usually the observational data for these kinds of problems is somewhat limited in that often the company sees only those who respond to an offer. To get around this, the bank designs a focused marketing study, with 18,000 current bank customers. This focused approach allows the bank to know who does and does not respond to the offer, and to use existing demographic data that is already available on each customer.
+I work for Hawkins Bank in Hawkins, Indiana as a risk analyst. In order to better understand the demographics of its customers that accept a credit card offer and that do not accept a credit card, Hawkins bank has designed a focused marketing study, with 18,000 current bank customers. This focused approach allows the bank to know who does and does not respond to the offer, and to use existing demographic data that is already available on each customer.
 
 ### Objective: Build a classification model that will provide insight into why some bank customers accept credit card offers.
 
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
 
-Customer Number: A sequential number assigned to the customers.
-Offer Accepted: Did the customer accept (Yes) or reject (No) the offer. 
-Reward: The type of reward program offered for the card.
-Mailer Type: Letter or postcard.
-Income Level: Low, Medium or High.
-#Bank Accounts Open: How many non-credit-card accounts are held by the customer.
-Overdraft Protection: Does the customer have overdraft protection on their checking account(s) (Yes or No).
-Credit Rating: Low, Medium or High.
-#Credit Cards Held: The number of credit cards held at the bank.
-#Homes Owned: The number of homes owned by the customer.
-Household Size: Number of individuals in the family.
-Own Your Home: Does the customer own their home? (Yes or No).
-Average Balance: Average account balance (across all accounts over time). Q1, Q2, Q3 and Q4
-Balance: Average balance for each quarter in the last year
+- Customer Number: A sequential number assigned to the customers.
+- Offer Accepted: Did the customer accept (Yes) or reject (No) the offer. 
+- Reward: The type of reward program offered for the card.
+- Mailer Type: Letter or postcard.
+- Income Level: Low, Medium or High.
+- Number of Bank Accounts Open: How many non-credit-card accounts are held by the customer.
+- Overdraft Protection: Does the customer have overdraft protection on their checking account(s) (Yes or No).
+- Credit Rating: Low, Medium or High.
+- Number of Credit Cards Held: The number of credit cards held at the bank.
+- Number of homes Owned: The number of homes owned by the customer.
+- Household Size: Number of individuals in the family.
+- Own Your Home: Does the customer own their home? (Yes or No).
+- Average Balance: Average account balance (across all accounts over time). Q1, Q2, Q3 and Q4
+- Balance: Average balance for each quarter in the last year
 
 
 #### Process
@@ -38,7 +38,7 @@ Balance: Average balance for each quarter in the last year
 9. Hypothesis testing : Is the (average) average account balance of all Hawkins Bank customers the same as the (average) average account balance of customers who didn't take the credit card offer?
 10. Data visualizations in Tableau comparing demographics of customers who did and didn't take the offer
 11. Preparation of presentation to explain findings and actions to be taken by the bank to increase the percentage of customers who will take a credit card offer sent in the mail. 
-12. 10-minute Live Presentation in class to instructor, TA, and 10 colleagues
+12. 7-minute live presentation to 12 colleagues to present project and data-driven insights
 
 [Link to recording of final presentation](https://slides.com/hollydalton/minimal)
 
