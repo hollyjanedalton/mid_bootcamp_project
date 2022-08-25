@@ -1,6 +1,6 @@
 # Hawkins Bank 
 
-## Machine learning to improve the sign-up rate of a credit card offer. 
+## Machine learning to improve the sign-up rate of a credit card offer 
 
 [Click for recording of final presentation](https://ironhack.zoom.us/rec/play/c6ucxea0L1FRymi22-HQIhLXEd0XXUEZ-UA09dp6-fEhTWg85DyzrGk4PDZh_OIgtkmFjIVaJAETo3Es.OP5nsmMXammFuYxH?startTime=1659442370000&_x_zm_rtaid=6Tdq7qw8T7SqVo45JcLH7w.1659608455628.2584d09c99ce9303c53496b1812d7126&_x_zm_rhtaid=554)
 
@@ -8,7 +8,7 @@
 
 ### Background 
 
-I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better understand the demographics of its clients that accept a credit card offer, Hawkins Bank has designed a focused marketing study, with 18,000 current bank clients. This focused approach allows the bank to know who does and does not respond to the offer, and to use existing demographic data of each customer to .
+I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better understand the demographics of its clients that accept a credit card offer, Hawkins Bank has designed a focused marketing study, with 18,000 current bank clients. This focused approach allows the bank to know who does and does not respond to the offer, and to analyze this data with existing demographic data of each customer.
 
 ### Objective: Build a classification model that will provide insight into why some bank customers accept credit card offers. Use this model to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign. 
 
