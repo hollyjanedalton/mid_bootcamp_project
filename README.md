@@ -1,5 +1,7 @@
 # Hawkins Bank 
+[Click for recording of final presentation](https://ironhack.zoom.us/rec/play/c6ucxea0L1FRymi22-HQIhLXEd0XXUEZ-UA09dp6-fEhTWg85DyzrGk4PDZh_OIgtkmFjIVaJAETo3Es.OP5nsmMXammFuYxH?startTime=1659442370000&_x_zm_rtaid=6Tdq7qw8T7SqVo45JcLH7w.1659608455628.2584d09c99ce9303c53496b1812d7126&_x_zm_rhtaid=554)
 
+[Click to view presentation slides](https://slides.com/hollydalton/deck-5b0977/fullscreen)
 
 ### Background 
 
@@ -39,6 +41,4 @@ I work for Hawkins Bank in Hawkins, Indiana as a risk analyst. In order to bette
 10. Data visualizations in Tableau comparing demographics of customers who did and didn't take the offer
 11. Preparation of presentation to explain findings and actions to be taken by the bank to increase the percentage of customers who will take a credit card offer sent in the mail. 
 12. 7-minute live presentation to 12 colleagues to present project and data-driven insights followed by 10-minute discussion
-
-[Link to recording of final presentation](https://ironhack.zoom.us/rec/play/c6ucxea0L1FRymi22-HQIhLXEd0XXUEZ-UA09dp6-fEhTWg85DyzrGk4PDZh_OIgtkmFjIVaJAETo3Es.OP5nsmMXammFuYxH?startTime=1659442370000&_x_zm_rtaid=6Tdq7qw8T7SqVo45JcLH7w.1659608455628.2584d09c99ce9303c53496b1812d7126&_x_zm_rhtaid=554)
 
