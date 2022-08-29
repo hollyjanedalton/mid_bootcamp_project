@@ -13,42 +13,42 @@ SELECT reward, mailer_type FROM credit_card_classification;
 SELECT data_type FROM information_schema.columns WHERE table_schema = 'business'AND able_name = 'DataTypeDemo';
 
 
-#Use sql query to find how many rows of data you have 
+**Use SQL query to find how many rows of data you have**
 SELECT COUNT(*) AS "total number of rows" FROM credit_card_classification;
 
-# Find the unique values in some of the categorical columns:
+**Find the unique values in some of the categorical columns**:
 
-##Offer Accepted
+Offer Accepted
 SELECT DISTINCT offer_accepted
 FROM credit_card_classification;
 
-##Reward
+Reward
 SELECT DISTINCT reward
 FROM credit_card_classification;
 
-##Household Size
+Household Size
 SELECT DISTINCT household_size
 FROM credit_card_classification;
 
-##Mailer type
+Mailer type
 SELECT DISTINCT mailer_type
 FROM credit_card_classification;
 
-##Credit Cards Held
+Credit Cards Held
 SELECT DISTINCT credit_cards_held
 FROM credit_card_data;
 
 
-#Arrange the data in decreasing order by the average_balance of the customer. Return only the customer_number of the top 10 customers with the highest average_balances in your data.
+**Arrange the data in decreasing order by the average_balance of the customer. Return only the customer_number of the top 10 customers with the highest average_balances in your data.**
 
 SELECT average_balance FROM credit_card_data
 ORDER BY average_balance DESC;
 
-#What is the average balance of all the customers in your data?
+**What is the average balance of all the customers in your data?**
 
 SELECT AVG(average_balance) AS "average balance of all customers" FROM credit_card_data;
 
-#Use simple group_by to check the properties of some of the categorical variables in our data:
+**Use simple group_by to check the properties of some of the categorical variables in our data:**
 ##a The average balance of the customers grouped by income level. 
 SELECT  income_level, AVG(average_balance) AS total_avg_balance FROM credit_card_data
 GROUP BY income_level
@@ -81,8 +81,8 @@ GROUP BY bank_accounts_open;
 
 
 
-#Your managers are only interested in the customers with the following properties: Credit rating medium or high, Credit cards held 2 or less, Owns their own home, Household size 3 or more.
-Write a simple query to find what are the options available for them? Can you filter the customers who accepted the offers here?
+**Your managers are only interested in the customers with the following properties: Credit rating medium or high, Credit cards held 2 or less, Owns their own home, Household size 3 or more.
+Write a simple query to find what are the options available for them? Can you filter the customers who accepted the offers here?**
 
 SELECT * FROM credit_card_data 
 WHERE (credit_rating LIKE 'medium') OR (credit_rating LIKE 'high')
@@ -92,7 +92,7 @@ SELECT * FROM credit_card_data
 WHERE (offer_accepted = 'Yes' AND credit_cards_held < 3 AND credit_rating != 'low'  AND own_your_home = 'Yes' AND household_size > 2);
 
 
-# What is the number of people who accepted the offer vs number of people who did not?
+**What is the number of people who accepted the offer vs number of people who did not?**
 SELECT offer_accepted, COUNT(offer_accepted)  as "number of Yes and No"
 FROM credit_card_data
 GROUP BY offer_accepted; 
