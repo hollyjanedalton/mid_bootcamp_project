@@ -10,7 +10,7 @@ SELECT * FROM credit_card_classification;
 
 SELECT reward, mailer_type FROM credit_card_classification;
 
-select data_type FROM information_schema.columns WHERE table_schema = 'business'AND able_name = 'DataTypeDemo';
+SELECT data_type FROM information_schema.columns WHERE table_schema = 'business'AND able_name = 'DataTypeDemo';
 
 
 #Use sql query to find how many rows of data you have 
@@ -81,7 +81,9 @@ GROUP BY bank_accounts_open;
 
 
 
-#11 
+#Your managers are only interested in the customers with the following properties: Credit rating medium or high, Credit cards held 2 or less, Owns their own home, Household size 3 or more.
+Write a simple query to find what are the options available for them? Can you filter the customers who accepted the offers here?
+
 SELECT * FROM credit_card_data 
 WHERE (credit_rating LIKE 'medium') OR (credit_rating LIKE 'high')
 AND credit_cards_held < 3;
@@ -89,7 +91,8 @@ AND credit_cards_held < 3;
 SELECT * FROM credit_card_data 
 WHERE (offer_accepted = 'Yes' AND credit_cards_held < 3 AND credit_rating != 'low'  AND own_your_home = 'Yes' AND household_size > 2);
 
-#14
+
+# What is the number of people who accepted the offer vs number of people who did not?
 SELECT offer_accepted, COUNT(offer_accepted)  as "number of Yes and No"
 FROM credit_card_data
 GROUP BY offer_accepted; 
