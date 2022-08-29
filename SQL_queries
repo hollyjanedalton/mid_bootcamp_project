@@ -16,7 +16,7 @@ SELECT data_type FROM information_schema.columns WHERE table_schema = 'business'
 #Use sql query to find how many rows of data you have 
 SELECT COUNT(*) AS "total number of rows" FROM credit_card_classification;
 
-#7 Now we will try to find the unique values in some of the categorical columns:
+# Find the unique values in some of the categorical columns:
 
 ##Offer Accepted
 SELECT DISTINCT offer_accepted
