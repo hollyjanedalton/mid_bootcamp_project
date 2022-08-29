@@ -10,7 +10,7 @@
 
 I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better understand the demographics of its clients that accept a credit card offer, Hawkins Bank has designed a focused marketing study, where they sent 18,000 current bank clients a credit card offer in the mail. This focused approach allows the bank to know who does and does not respond to the offer, and to analyze this data with existing demographic data of each customer.
 
-### Objective: Build a classification model to predict which bank customers will sign up for a credit card offer sent the mail. Use this model to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign. 
+### Objective: Build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Use this model to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign. 
 
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
