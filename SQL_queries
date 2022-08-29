@@ -1,0 +1,95 @@
+SHOW databases;
+
+CREATE database credit_card_classification;
+
+SHOW database;
+USE credit_card_classification;
+
+
+SELECT * FROM credit_card_classification;
+
+SELECT reward, mailer_type FROM credit_card_classification;
+
+select data_type FROM information_schema.columns WHERE table_schema = 'business'AND able_name = 'DataTypeDemo';
+
+
+#Use sql query to find how many rows of data you have 
+SELECT COUNT(*) AS "total number of rows" FROM credit_card_classification;
+
+#7 Now we will try to find the unique values in some of the categorical columns:
+
+##Offer Accepted
+SELECT DISTINCT offer_accepted
+FROM credit_card_classification;
+
+##Reward
+SELECT DISTINCT reward
+FROM credit_card_classification;
+
+##Household Size
+SELECT DISTINCT household_size
+FROM credit_card_classification;
+
+##Mailer type
+SELECT DISTINCT mailer_type
+FROM credit_card_classification;
+
+##Credit Cards Held
+SELECT DISTINCT credit_cards_held
+FROM credit_card_data;
+
+
+#Arrange the data in decreasing order by the average_balance of the customer. Return only the customer_number of the top 10 customers with the highest average_balances in your data.
+
+SELECT average_balance FROM credit_card_data
+ORDER BY average_balance DESC;
+
+#What is the average balance of all the customers in your data?
+
+SELECT AVG(average_balance) AS "average balance of all customers" FROM credit_card_data;
+
+#Use simple group_by to check the properties of some of the categorical variables in our data:
+##a The average balance of the customers grouped by income level. 
+SELECT  income_level, AVG(average_balance) AS total_avg_balance FROM credit_card_data
+GROUP BY income_level
+ORDER BY total_avg_balance ASC;
+#they are all about the same, have about the same average balance despite income level
+
+##b Average balance of customers grouped by number of bank accounts open.
+SELECT  bank_accounts_open, AVG(average_balance) as total_avg_balance FROM credit_card_data
+GROUP BY bank_accounts_open
+ORDER BY total_avg_balance ASC;
+#they all are about the same, have about same average balance regardless of how many bank accounts open
+
+##c Average number of credit cards held by customers for each of the credit card ratings 
+SELECT  credit_rating, AVG(credit_cards_held) as total_avg_cc_held FROM credit_card_data
+GROUP BY credit_rating;
+#Again, all about the same, customers with high credit card rating have on average 1.9 credit cards
+#customers with Medium credit rating have a slightly higher average of 1.91 credit cards
+#customers with low credit rating have 1.9 credit cards on average 
+
+##show all the customers who have a high credit rating next to the number of credit cards held
+#then shows the average number of credit cards held by customers with a high credit card rating
+SELECT  credit_rating, avg(credit_cards_held)
+FROM credit_card_data
+WHERE credit_rating = "High";
+
+#d Is there any correlation between the columns credit_cards_held and number of bank accounts open?
+SELECT avg(credit_cards_held), bank_accounts_open FROM credit_card_data
+GROUP BY bank_accounts_open;
+
+
+
+
+#11 
+SELECT * FROM credit_card_data 
+WHERE (credit_rating LIKE 'medium') OR (credit_rating LIKE 'high')
+AND credit_cards_held < 3;
+
+SELECT * FROM credit_card_data 
+WHERE (offer_accepted = 'Yes' AND credit_cards_held < 3 AND credit_rating != 'low'  AND own_your_home = 'Yes' AND household_size > 2);
+
+#14
+SELECT offer_accepted, COUNT(offer_accepted)  as "number of Yes and No"
+FROM credit_card_data
+GROUP BY offer_accepted; 
