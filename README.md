@@ -32,7 +32,7 @@ Customers responded better to the credit card offer sent by postcard rather than
 
 #### Type of Rewards Program
 The bank offers three Rewards programs to go along with the credit card- Cash back, Points, or Air Miles. 
-The majority of customers who accepted the credit card offer were those send the Air Miles program. 
+The majority of customers who accepted the credit card offer were those sent the Air Miles Rewards program. 
 
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/rewards%20program.png" width="150">
 
