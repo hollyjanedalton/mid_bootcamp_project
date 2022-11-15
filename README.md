@@ -12,11 +12,28 @@
 
 I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better understand the demographics of its clients that accept a credit card offer, Hawkins Bank has designed a focused marketing study, where they sent 18,000 current bank clients a credit card offer in the mail. This focused approach allows the bank to know who does and does not respond to the offer, and to analyze this data with existing demographic data of each customer.
 
-### Objective: 
+### Objective:  
 
-Build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Use this model to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign. 
+In this mailer campaign, 6% (or about 1,000 customers) signed up for the credit card after receiving the offer. How can we increase this number next time? 
+
+I will build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Then I will use this model to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign.
 
 ---
+
+### Main Insights:
+
+#### Type of mailer
+50% of customers were sent the offer by postcard and 50% by mailed envelope. 
+Customers responded better to the credit card offer sent by postcard rather than by mailed envelope. 70% of customers who took the credit card offer had been sent the offer by postcard. 
+![](https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/postcard%20vs%20letter.png)
+
+Action: Save money and paper by sending 100% of the offers by postcard next time. 
+
+#### Type of Rewards Program
+The bank offers three Rewards programs to go along with the credit card- Points, Travel, and The majority of customers who accepted the credit card offer were those send the Travel Rewards program. 
+![](https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/rewards%20program.png)
+
+Action: Instead of offering each rewards program equally, offer a higher proportion of the Travel Rewards. 
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
 
