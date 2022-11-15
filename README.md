@@ -32,6 +32,7 @@ Action: Save money and paper by sending 100% of the offers by postcard next time
 #### Type of Rewards Program
 The bank offers three Rewards programs to go along with the credit card- Cash back, Points, or Air Miles. 
 The majority of customers who accepted the credit card offer were those send the Air Miles program. 
+
 ![](https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/rewards%20program.png)
 
 Action: Instead of offering each rewards program equally, offer a higher proportion of the Travel Rewards. 
