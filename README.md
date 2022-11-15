@@ -27,7 +27,7 @@ I will build a classification model to predict which bank customers will sign up
 Customers responded better to the credit card offer sent by postcard rather than by mailed envelope. 70% of customers who took the credit card offer had been sent the offer by postcard. 
 ![](https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/postcard%20vs%20letter.png)
 
-<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/postcard%20vs%20letter.png" width="100">
+<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/postcard%20vs%20letter.png" width="300">
 
 Action: Save money and paper by sending 100% of the offers by postcard next time. 
 
