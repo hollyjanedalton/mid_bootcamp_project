@@ -1,5 +1,6 @@
 # Machine learning to improve the sign-up rate of a credit card offer 
 ![](https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/Screen%20Shot%202022-11-15%20at%201.35.52%20PM.png)
+<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/Screen%20Shot%202022-11-15%20at%201.35.52%20PM.png" width="300">
 
 
 [Click for recording of final presentation](https://ironhack.zoom.us/rec/play/c6ucxea0L1FRymi22-HQIhLXEd0XXUEZ-UA09dp6-fEhTWg85DyzrGk4PDZh_OIgtkmFjIVaJAETo3Es.OP5nsmMXammFuYxH?startTime=1659442370000&_x_zm_rtaid=6Tdq7qw8T7SqVo45JcLH7w.1659608455628.2584d09c99ce9303c53496b1812d7126&_x_zm_rhtaid=554)
@@ -25,7 +26,6 @@ I will build a classification model to predict which bank customers will sign up
 #### Type of mailer
 50% of customers were sent the offer by postcard and 50% by mailed envelope. 
 Customers responded better to the credit card offer sent by postcard rather than by mailed envelope. 70% of customers who took the credit card offer had been sent the offer by postcard. 
-![](https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/postcard%20vs%20letter.png)
 
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/postcard%20vs%20letter.png" width="300">
 
