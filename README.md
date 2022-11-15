@@ -34,7 +34,7 @@ Customers responded better to the credit card offer sent by postcard rather than
 The bank offers three Rewards programs to go along with the credit card- Cash back, Points, or Air Miles. 
 The majority of customers who accepted the credit card offer were those send the Air Miles program. 
 
-<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/rewards%20program.png" width="250">
+<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/rewards%20program.png" width="150">
 
 
 ##### Action: Instead of offering each rewards program equally, offer a higher proportion of the Travel Rewards. 
