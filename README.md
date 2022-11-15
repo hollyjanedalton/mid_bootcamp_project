@@ -37,6 +37,8 @@ The majority of customers who accepted the credit card offer were those send the
 
 Action: Instead of offering each rewards program equally, offer a higher proportion of the Travel Rewards. 
 
+---
+
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
 
 - **Customer Number**: A sequential number assigned to the customers.
