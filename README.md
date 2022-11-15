@@ -1,4 +1,5 @@
 # Hawkins Bank 
+![](https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/Screen%20Shot%202022-11-15%20at%201.35.52%20PM.png)
 
 ## Machine learning to improve the sign-up rate of a credit card offer 
 
