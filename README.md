@@ -3,8 +3,6 @@
 
 ## Machine learning to improve the sign-up rate of a credit card offer 
 
----
-
 [Click for recording of final presentation](https://ironhack.zoom.us/rec/play/c6ucxea0L1FRymi22-HQIhLXEd0XXUEZ-UA09dp6-fEhTWg85DyzrGk4PDZh_OIgtkmFjIVaJAETo3Es.OP5nsmMXammFuYxH?startTime=1659442370000&_x_zm_rtaid=6Tdq7qw8T7SqVo45JcLH7w.1659608455628.2584d09c99ce9303c53496b1812d7126&_x_zm_rhtaid=554)
 
 [Click to view presentation slides](https://slides.com/hollydalton/minimal/fullscreen)
