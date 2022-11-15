@@ -3,9 +3,13 @@
 
 ## Machine learning to improve the sign-up rate of a credit card offer 
 
+---
+
 [Click for recording of final presentation](https://ironhack.zoom.us/rec/play/c6ucxea0L1FRymi22-HQIhLXEd0XXUEZ-UA09dp6-fEhTWg85DyzrGk4PDZh_OIgtkmFjIVaJAETo3Es.OP5nsmMXammFuYxH?startTime=1659442370000&_x_zm_rtaid=6Tdq7qw8T7SqVo45JcLH7w.1659608455628.2584d09c99ce9303c53496b1812d7126&_x_zm_rhtaid=554)
 
 [Click to view presentation slides](https://slides.com/hollydalton/minimal/fullscreen)
+
+---
 
 ### Background 
 
@@ -13,6 +17,7 @@ I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better unde
 
 ### Objective: Build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Use this model to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign. 
 
+---
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
 
@@ -31,6 +36,7 @@ I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better unde
 - **Average Balance**: Average account balance (across all accounts over time). Q1, Q2, Q3 and Q4
 - **Balance**: Average balance for each quarter in the last year
 
+---
 
 #### Process
 1. Exploratory Data Analysis and Visualizations using Python 
@@ -45,4 +51,3 @@ I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better unde
 10. Data visualizations in Tableau comparing demographics of customers who did and didn't take the offer
 11. Preparation of presentation to explain findings and actions to be taken by the bank to increase the percentage of customers who will take a credit card offer sent in the mail. 
 12. 7-minute live presentation to 12 colleagues to present project and data-driven insights followed by 10-minute discussion
-
