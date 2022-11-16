@@ -19,11 +19,14 @@ In this mailer campaign, 6% (or about 1,000 customers) signed up for the credit 
 I will build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Then I will use this model along with my analysis to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign.
 
 ---
-Quick view of actionable insights:
+Quick view of actionable insights for improving the sign up rate of next credit card mailer campaign:
 
-1. The credit card offer was sent in the mail 50% by postcard and 50% by enveloped letter. **Next time, send the offer 100% by postcard.**
-2. The credit card offer was sent with an option of 3 rewards programs: Air Miles, Cash Back, or Points. **Next time, send a higher proportion of customers the Air Miles Rewards program**, as it was the most popular program of those clients who accepted the offer.
-3. Demographics: Focus the next mailing campaign on capturing the attention of clients with **medium-to-low incomes and medium-to-low credit scores**. They are the clients most interested in a credit card offer. 
+1. **Send the offer 100% by postcard, NOT enveloped letter.**
+
+2. **Send a higher proportion of customers the Air Miles Rewards program rather than the Points or Cash Back**
+
+3. Clients with **medium-to-low incomes** and/or **medium-to-low credit scores** are the ones most likely to sign up for a credit card offer sent by mail. Focus the next mailing campaign on them. 
+
 
 ### Main Insights:
 
