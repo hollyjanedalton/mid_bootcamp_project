@@ -56,6 +56,9 @@ Although the data contained 14 demographic features of each client, two features
 
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="500">
 
+<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/credit%20ratings.png" width="500">
+
+
 ---
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
