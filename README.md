@@ -52,11 +52,10 @@ For this part of the analysis, we will be comparing the two demographics of the 
 
 Quick reminder: the objective of this project is to provide actionable insights to increase this percentage from 6% to 15%
 
-Although the data contained 14 demographic features of each client, two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer: **Income Level and Credit Rating**
+Although the data contained 14 demographic features of each client, two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer: **Income Level and Credit Rating** 
 
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="500">
 
-Although across both groups, the majority of customers were in the "medium" income bracket, there are more clients in the "low" medium income bracket who didn't 
 ---
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
