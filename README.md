@@ -16,7 +16,7 @@ I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better unde
 
 In this mailer campaign, 6% (or about 1,000 customers) signed up for the credit card after receiving the offer. How can we increase this number next time? 
 
-I will build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Then I will use this model to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign.
+I will build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Then I will use this model along with my analysis to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign.
 
 ---
 
@@ -38,6 +38,16 @@ The majority of customers who accepted the credit card offer were those sent the
 
 
 ##### Action: Instead of offering each rewards program equally, offer a higher proportion of the Travel Rewards. 
+
+##### Demographic Features of Bank Customers 
+For this part of the analysis, we will be comparing the two groups of customers:
+Group 1: Customers who signed up for the credit card offer after receiving the mailer (about 1,000 customers, or 6%)
+Group 2: Customers who didn't sign up for the credit card offer after recieving the mailer (about 17,000 customers, or 94%)
+
+Quick reminder: the objective of this project is to provide actionable insights to increase this percentage from 6% to 15%
+
+The data contained 14 demographic features of each client, such as their average annual account balance, household size, and whether or not they have overdraft protection. However, two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer:
+#### Income Level and Credit Rating
 
 ---
 
