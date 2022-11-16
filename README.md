@@ -48,7 +48,7 @@ The data contained 14 demographic features of each client, such as their average
 
 #### Income Level and Credit Rating
 
-<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="150">
+<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="400">
 
 
 ---
