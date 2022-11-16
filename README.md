@@ -19,6 +19,11 @@ In this mailer campaign, 6% (or about 1,000 customers) signed up for the credit 
 I will build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Then I will use this model along with my analysis to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign.
 
 ---
+Quick view of actionable insights:
+
+1. The credit card offer was sent in the mail 50% by postcard and 50% by enveloped letter. **Next time, send the offer 100% by postcard.**
+2. The credit card offer was sent with an option of 3 rewards programs: Air Miles, Cash Back, or Points. **Next time, send a higher proportion of customers the Air Miles Rewards program**, as it was the most popular program of those clients who accepted the offer.
+3. Demographics: Focus the next mailing campaign on capturing the attention of clients with **medium-to-low incomes and medium-to-low credit scores**. They are the clients most interested in a credit card offer. 
 
 ### Main Insights:
 
@@ -44,13 +49,11 @@ For this part of the analysis, we will be comparing the two demographics of the 
 
 Quick reminder: the objective of this project is to provide actionable insights to increase this percentage from 6% to 15%
 
-The data contained 14 demographic features of each client, such as their average annual account balance, household size, and whether or not they have overdraft protection. However, two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer:
+Although the data contained 14 demographic features of each client, two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer: **Income Level and Credit Rating**
 
-#### Income Level and Credit Rating
+<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="500">
 
-<img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="400">
-
-
+Although across both groups, the majority of customers were in the "medium" income bracket, there are more clients in the "low" medium income bracket who didn't 
 ---
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
