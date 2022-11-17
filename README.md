@@ -50,7 +50,9 @@ The majority of customers who accepted the credit card offer were those sent the
 #### Demographic Features of Bank Customers 
 For this part of the analysis, we compare the demographics of customers who signed up for the credit card offer (about 1,000 customers) verses customers who didn't sign up for the credit card offer (about 17,000 customers)
 
-Two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer: **Income Level and Credit Rating** 
+Two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer: 
+
+**Income Level and Credit Rating** 
 
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="500">
 
