@@ -48,16 +48,15 @@ The majority of customers who accepted the credit card offer were those sent the
 ##### Action: Instead of offering each rewards program equally, offer a higher proportion of the Travel Rewards. 
 
 #### Demographic Features of Bank Customers 
-For this part of the analysis, we will be comparing the two demographics of the 2 groups of customers- those customers who signed up for the credit card offer after receiving the mailer (about 1,000 customers, or 6%) verses those customers who didn't sign up for the credit card offer after recieving the mailer (about 17,000 customers, or 94%)
+For this part of the analysis, we compare the demographics of customers who signed up for the credit card offer (about 1,000 customers) verses customers who didn't sign up for the credit card offer (about 17,000 customers)
 
-Quick reminder: the objective of this project is to provide actionable insights to increase this percentage from 6% to 15%
-
-Although the data contained 14 demographic features of each client, two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer: **Income Level and Credit Rating** 
+Two features seemed particularly indicative of determining whether or not a customer would sign up for the credit card offer: **Income Level and Credit Rating** 
 
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/income%20levels%20comparison.png" width="500">
 
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/credit%20ratings.png" width="500">
 
+#### Action: Focus the next credit card mailing campaign on customers with medium/low income and low credit score.   
 
 ---
 
