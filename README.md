@@ -6,6 +6,7 @@
 
 [Click to view presentation slides](https://slides.com/hollydalton/minimal/fullscreen)
 
+#### Please note: Project based on real bank data, but bank name has been changed
 ---
 
 ### Background 
