@@ -1,4 +1,4 @@
-# Machine learning to improve the sign-up rate of a credit card offer 
+# Increasing the sign-up rate of a credit card offer by analyzing customer demographics
 <img src="https://github.com/hollyjanedalton/mid_bootcamp_project/blob/master/Screen%20Shot%202022-11-15%20at%201.35.52%20PM.png" width="400">
 
 
@@ -11,17 +11,17 @@
 
 ### Background 
 
-In order to better understand the demographics of its clients that accept a credit card offer, Hawkins Bank has designed a focused marketing study, where they sent 18,000 current bank clients a credit card offer in the mail. This focused approach allows the bank to know who does and does not respond to the offer, and to analyze this data with existing demographic data of each customer.
+Hawkins Bank designed a focused marketing study, where they sent 18,000 current bank clients a credit card offer in the mail. This approach allows the bank to know who does and does not respond to the offer, and to analyze this data with existing demographic data of each customer.
 
 ### Objective:  
 
-6% (or about 1,000 customers) signed up for the credit card after receiving the offer. 
+6%, or about 1,000 customers signed up for the credit card after receiving the offer by mail. 
 How can we increase this number next time? 
 
 I will build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Then I will use this model along with my analysis to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign.
 
 ---
-Quick view of actionable insights for improving the sign up rate of next credit card mailer campaign:
+Quick view of actionable insights:
 
 1. **Send the offer 100% by postcard, NOT enveloped letter.**
 
