@@ -11,11 +11,12 @@
 
 ### Background 
 
-I'm a risk analyst for Hawkins Bank in Hawkins, Indiana. In order to better understand the demographics of its clients that accept a credit card offer, Hawkins Bank has designed a focused marketing study, where they sent 18,000 current bank clients a credit card offer in the mail. This focused approach allows the bank to know who does and does not respond to the offer, and to analyze this data with existing demographic data of each customer.
+In order to better understand the demographics of its clients that accept a credit card offer, Hawkins Bank has designed a focused marketing study, where they sent 18,000 current bank clients a credit card offer in the mail. This focused approach allows the bank to know who does and does not respond to the offer, and to analyze this data with existing demographic data of each customer.
 
 ### Objective:  
 
-In this mailer campaign, 6% (or about 1,000 customers) signed up for the credit card after receiving the offer. How can we increase this number next time? 
+6% (or about 1,000 customers) signed up for the credit card after receiving the offer. 
+How can we increase this number next time? 
 
 I will build a classification model to predict which bank customers will sign up for a credit card offer sent by mail. Then I will use this model along with my analysis to suggest actionable insights to Hawkins Bank to improve the sign-up rate of their next credit card mailer campaign.
 
