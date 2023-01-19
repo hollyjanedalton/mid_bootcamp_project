@@ -28,6 +28,7 @@ Quick view of actionable insights:
 2. **Send a higher proportion of customers the Air Miles Rewards program rather than the Points or Cash Back**
 
 3. Clients with **medium-to-low incomes** and/or **medium-to-low credit scores** are the ones most likely to sign up for a credit card offer sent by mail. Focus the next mailing campaign on them. 
+Note** I personally would not feel comfortable sharing these kind of demographic findings about customers. I acknowledge this more in my [presentation](https://ironhack.zoom.us/rec/play/c6ucxea0L1FRymi22-HQIhLXEd0XXUEZ-UA09dp6-fEhTWg85DyzrGk4PDZh_OIgtkmFjIVaJAETo3Es.OP5nsmMXammFuYxH?startTime=1659442370000&_x_zm_rtaid=6Tdq7qw8T7SqVo45JcLH7w.1659608455628.2584d09c99ce9303c53496b1812d7126&_x_zm_rhtaid=554).
 
 
 ### Main Insights:
@@ -66,17 +67,17 @@ Two features seemed particularly indicative of determining whether or not a cust
 
 #### Data: The data set consists of 14 demographic features on 18,000 current bank customers:
 
-- **Customer Number**: A sequential number assigned to the customers.
+- **Customer Number**
 - **Offer Accepted**: Did the customer accept (Yes) or reject (No) the offer. 
 - **Reward**: The type of reward program offered for the card.
 - **Mailer Type**: Letter or postcard.
-- **Income Level**: Low, Medium or High.
+- **Income Level**: Binned into Low, Medium or High.
 - **Number of Bank Accounts**: How many non-credit-card accounts are held by the customer.
 - **Overdraft Protection**: Does the customer have overdraft protection on their checking account(s) (Yes or No).
-- **Credit Rating**: Low, Medium or High.
+- **Credit Rating**: Binned into Low, Medium or High.
 - **Number of Credit Cards Held**: The number of credit cards held at the bank.
 - **Number of Homes Owned**: The number of homes owned by the customer.
-- **Household Size**: Number of individuals in the family.
+- **Household Size**
 - **Own Your Home**: Does the customer own their home? (Yes or No).
 - **Average Balance**: Average account balance (across all accounts over time). Q1, Q2, Q3 and Q4
 - **Balance**: Average balance for each quarter in the last year
